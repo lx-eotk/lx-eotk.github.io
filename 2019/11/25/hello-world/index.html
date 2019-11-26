@@ -4,18 +4,25 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">
-<meta name="generator" content="Hexo 4.0.0">
 
 <script>
     (function(){
+        alert('');
         if(''){
-            if (prompt('Please input password for this private blog') !== ''){ 
+            if (prompt('Please input password for this private blog') !== ''){
                 alert('Sorry, password error！');
-                history.back();
+    if (history.length === 1) {
+        window.opener = null;
+        window.open('', '_self');
+        window.close();
+                } else {
+                    history.back();
+                }
             }
         }
     })();
 </script>
+<meta name="generator" content="Hexo 4.0.0">
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
@@ -57,7 +64,6 @@
     sidebarPadding: 40
   };
 </script>
-
   <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hello World">
@@ -313,7 +319,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">4</span>
+          <span class="site-state-item-count">5</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -326,7 +332,7 @@
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-count">4</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>

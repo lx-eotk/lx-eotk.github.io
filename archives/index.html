@@ -4,18 +4,25 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
 <meta name="theme-color" content="#222">
-<meta name="generator" content="Hexo 4.0.0">
 
 <script>
     (function(){
+        alert('');
         if(''){
-            if (prompt('Please input password for this private blog') !== ''){ 
+            if (prompt('Please input password for this private blog') !== ''){
                 alert('Sorry, password error！');
-                history.back();
+    if (history.length === 1) {
+        window.opener = null;
+        window.open('', '_self');
+        window.close();
+                } else {
+                    history.back();
+                }
             }
         }
     })();
 </script>
+<meta name="generator" content="Hexo 4.0.0">
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
@@ -57,7 +64,6 @@
     sidebarPadding: 40
   };
 </script>
-
   <meta property="og:type" content="website">
 <meta property="og:title" content="没想好">
 <meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;archives&#x2F;index.html">
@@ -189,13 +195,33 @@
   <div class="post-block">
     <div class="posts-collapse">
       <div class="collection-title">
-        <span class="collection-header">Um..! 4 posts in total. Keep on posting.</span>
+        <span class="collection-header">Um..! 5 posts in total. Keep on posting.</span>
       </div>
 
       
     <div class="collection-year">
       <h1 class="collection-header">2019</h1>
     </div>
+
+  <article itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <div class="post-meta">
+        <time itemprop="dateCreated"
+              datetime="2019-11-26T19:07:19+08:00"
+              content="2019-11-26">
+          11-26
+        </time>
+      </div>
+
+      <h2 class="post-title">
+          <a class="post-title-link" href="/2019/11/26/aaaa/" itemprop="url">
+            <span itemprop="name">aaaa</span>
+          </a>
+      </h2>
+
+    </header>
+  </article>
 
   <article itemscope itemtype="http://schema.org/Article">
     <header class="post-header">
@@ -329,7 +355,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">4</span>
+          <span class="site-state-item-count">5</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -342,7 +368,7 @@
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-count">4</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
