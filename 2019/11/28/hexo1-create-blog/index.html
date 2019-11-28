@@ -46,28 +46,32 @@
   };
 </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="没想好">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;index.html">
+  <meta name="description" content="HexoHexo——快速、简洁且高效的博客框架。 Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。  hexo官网： http:&#x2F;&#x2F;hexo.io文档： https:&#x2F;&#x2F;hexo.io&#x2F;zh-cn&#x2F;docs&#x2F;github: https:&#x2F;&#x2F;github.com&#x2F;hexojs&#x2F;hexo  优点工作原理：本地写好md文件，应用hexo进行相关页面生">
+<meta name="keywords" content="hexo,blog">
+<meta property="og:type" content="article">
+<meta property="og:title" content="hexo1-create-blog">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;28&#x2F;hexo1-create-blog&#x2F;index.html">
 <meta property="og:site_name" content="没想好">
+<meta property="og:description" content="HexoHexo——快速、简洁且高效的博客框架。 Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。  hexo官网： http:&#x2F;&#x2F;hexo.io文档： https:&#x2F;&#x2F;hexo.io&#x2F;zh-cn&#x2F;docs&#x2F;github: https:&#x2F;&#x2F;github.com&#x2F;hexojs&#x2F;hexo  优点工作原理：本地写好md文件，应用hexo进行相关页面生">
 <meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2019-11-28T13:54:26.000Z">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://yoursite.com/">
+<link rel="canonical" href="http://yoursite.com/2019/11/28/hexo1-create-blog/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome: true,
-    isPost: false,
+    isHome: false,
+    isPost: true,
     isPage: false,
     isArchive: false
   };
 </script>
 
-  <title>没想好</title>
+  <title>hexo1-create-blog | 没想好</title>
   
 
 
@@ -198,10 +202,10 @@
             
 
   <div class="posts-expand">
-        
+      
   
   
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="en">
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="en">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/28/hexo1-create-blog/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -215,8 +219,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          
-            <a href="/2019/11/28/hexo1-create-blog/" class="post-title-link" itemprop="url">hexo1-create-blog</a>
+          hexo1-create-blog
         </h1>
 
         <div class="post-meta">
@@ -240,7 +243,14 @@
                 </span>
             </span>
 
-          <br>
+          
+            <span class="post-meta-item" title="Views" id="busuanzi_container_page_pv" style="display: none;">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">Views: </span>
+              <span id="busuanzi_value_page_pv"></span>
+            </span><br>
             <span class="post-meta-item" title="Symbols count in article">
               <span class="post-meta-item-icon">
                 <i class="fa fa-file-word-o"></i>
@@ -258,7 +268,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h1 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h1><p>Hexo——快速、简洁且高效的博客框架。 Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。 </p>
+        <h1 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h1><p>Hexo——快速、简洁且高效的博客框架。 Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。 </p>
 <p>hexo官网： <a href="http://hexo.io" target="_blank" rel="noopener">http://hexo.io</a><br>文档： <a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/</a><br>github: <a href="https://github.com/hexojs/hexo" target="_blank" rel="noopener">https://github.com/hexojs/hexo</a> </p>
 <h1 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h1><p>工作原理：本地写好md文件，应用hexo进行相关页面生成与渲染（依依据配置的主题与template），然后将有改动的页面提交至github，因此github pages存储的均为静态的html文件。</p>
 <p><strong>特点：</strong></p>
@@ -315,24 +325,35 @@
 <p><strong>参考博客</strong>：<br><a href="https://sunfove.xyz/archives/ec7d7221.html" target="_blank" rel="noopener">Hexo搭建个人博客</a></p>
 </blockquote>
 
-      
     </div>
 
     
     
+    <div>
     
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------END<i class="fa fa-paw"></i>THANKS FOR YOUR READING!-------------</div>
+    
+</div>
+
       <footer class="post-footer">
-        <div class="post-eof"></div>
+          
+          <div class="post-tags">
+              <a href="/tags/hexo/" rel="tag"><i class="fa fa-tag"></i> hexo</a>
+              <a href="/tags/blog/" rel="tag"><i class="fa fa-tag"></i> blog</a>
+          </div>
+
+        
+
+
+        
       </footer>
+    
   </article>
   
   
   
 
   </div>
-
-  
-
 
 
           </div>
@@ -361,6 +382,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Hexo"><span class="nav-number">1.</span> <span class="nav-text">Hexo</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#优点"><span class="nav-number">2.</span> <span class="nav-text">优点</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Install"><span class="nav-number">3.</span> <span class="nav-text">Install</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Hexo-Folders"><span class="nav-number">4.</span> <span class="nav-text">Hexo-Folders</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#hexo命令"><span class="nav-number">5.</span> <span class="nav-text">hexo命令</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#hexo部署至github"><span class="nav-number">6.</span> <span class="nav-text">hexo部署至github</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
