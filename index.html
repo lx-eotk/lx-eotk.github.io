@@ -25,7 +25,7 @@
     version: '7.5.0',
     exturl: false,
     sidebar: {"position":"left","display":"post","offset":12,"onmobile":false},
-    copycode: {"enable":false,"show_result":false,"style":null},
+    copycode: {"enable":true,"show_result":true,"style":null},
     back2top: {"enable":true,"sidebar":false,"scrollpercent":true},
     bookmark: {"enable":false,"color":"#222","save":"auto"},
     fancybox: false,
@@ -202,6 +202,72 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/12/01/test/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/2.jpg">
+      <meta itemprop="name" content="lx_eotk">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="没想好">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2019/12/01/test/" class="post-title-link" itemprop="url">test</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2019-12-01 19:32:52" itemprop="dateCreated datePublished" datetime="2019-12-01T19:32:52+08:00">2019-12-01</time>
+            </span>
+
+          <br>
+            <span class="post-meta-item" title="Symbols count in article">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-file-word-o"></i>
+              </span>
+                <span class="post-meta-item-text">Symbols count in article: </span>
+              <span>64</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> os</span><br><span class="line">os.mkdir(<span class="string">"ssss"</span>)</span><br><span class="line">print(<span class="number">123</span>)</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">a</span><span class="params">()</span>:</span></span><br><span class="line">    <span class="keyword">if</span>(<span class="number">1</span>==<span class="number">2</span>):</span><br><span class="line">        print(<span class="number">1</span>)</span><br></pre></td></tr></table></figure>
+<p><img src="/uploads/loading.gif" data-original="2019-12-01-test/1575199408780.png" alt="1575199408780" style="zoom: 50%;"></p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="en">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/28/hexo1-create-blog/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -260,61 +326,14 @@
       
           <h1 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h1><p>Hexo——快速、简洁且高效的博客框架。 Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。 </p>
 <p>hexo官网： <a href="http://hexo.io" target="_blank" rel="noopener">http://hexo.io</a><br>文档： <a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/</a><br>github: <a href="https://github.com/hexojs/hexo" target="_blank" rel="noopener">https://github.com/hexojs/hexo</a> </p>
-<h1 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h1><p>工作原理：本地写好md文件，应用hexo进行相关页面生成与渲染（依依据配置的主题与template），然后将有改动的页面提交至github，因此github pages存储的均为静态的html文件。</p>
-<p><strong>特点：</strong></p>
-<blockquote>
-<ul>
-<li>blazing Fast: node.js带来的快速渲染</li>
-<li>支持markdown， Hexo 支持 GitHub Flavored Markdown 的所有功能，甚至可以整合 Octopress 的大多数插件 </li>
-<li>一键部署：只需一条指令即可部署到 GitHub Pages, Heroku 或其他网站。</li>
-<li>丰富的插件：安装插件可以让 Hexo 支持 Jade, CoffeeScript等</li>
-</ul>
-</blockquote>
-<h1 id="Install"><a href="#Install" class="headerlink" title="Install"></a>Install</h1><p>需先安装git、node.js（可参考官方文档）<br> <a href="https://npm.taobao.org/mirrors/git-for-windows/" target="_blank" rel="noopener">https://npm.taobao.org/mirrors/git-for-windows/</a><br> <a href="https://npm.taobao.org/mirrors/node" target="_blank" rel="noopener">https://npm.taobao.org/mirrors/node</a> </p>
-<p>安装：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 全局安装，局部安装需配置环境变量(也许需要酸酸乳)</span></span><br><span class="line"><span class="comment"># 推荐：更改npm的源</span></span><br><span class="line"><span class="comment"># 设置为淘宝镜像 npm config set registry "https://registry.npm.taobao.org"</span></span><br><span class="line">npm install -g hexo-cli</span><br><span class="line"></span><br><span class="line"><span class="comment"># 请执行下列命令，Hexo 将会在指定文件夹中新建所需要的文件</span></span><br><span class="line">hexo init &lt;folder&gt;</span><br><span class="line"><span class="built_in">cd</span> &lt;folder&gt;</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
-<p>delete：</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">npm uninstall hexo-cli -g <span class="comment"># 3.0.0及以上版本</span></span><br><span class="line">nnpm uninstall hexo -g <span class="comment"># 之前版本</span></span><br><span class="line"><span class="comment"># blog内容，手动删除</span></span><br></pre></td></tr></table></figure>
-<h1 id="Hexo-Folders"><a href="#Hexo-Folders" class="headerlink" title="Hexo-Folders"></a>Hexo-Folders</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">.</span><br><span class="line">├── _config.yml</span><br><span class="line">├── package.json</span><br><span class="line">├── scaffolds</span><br><span class="line">├── source</span><br><span class="line">|   ├── _drafts</span><br><span class="line">|   └── _posts</span><br><span class="line">└── themes</span><br></pre></td></tr></table></figure>
-<ol>
-<li>_config.yml<br>网站的 <a href="https://hexo.io/zh-cn/docs/configuration" target="_blank" rel="noopener">配置</a> 信息（各种参数）</li>
-<li>package.json<br>应用程序的信息 </li>
-<li>scaffolds<br>模板文件夹。新建文章时，Hexo 会根据 scaffold 来建立文件。Hexo的模板是指在新建的文章文件中默认填充的内容。例如，如果修改scaffold/post.md中的Front-matter内容，那么每次新建一篇文章时都会包含这个修改。</li>
-<li>source<br>资源文件夹是存放源文件的地方。除 <code>_posts</code> 文件夹之外，开头命名为 <code>_</code> (下划线)的文件 / 文件夹和隐藏的文件将会被忽略。——<strong>_post</strong>中Markdown 和 HTML 文件会被解析并放到 <code>public</code> 文件夹，而其他文件会被拷贝过去。</li>
-<li>themes<br>主题文件夹</li>
-</ol>
-<h1 id="hexo命令"><a href="#hexo命令" class="headerlink" title="hexo命令"></a>hexo命令</h1><p> <a href="https://hexo.io/zh-cn/docs/commands" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/commands</a> </p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init [folder]</span><br><span class="line"><span class="comment"># 新建一个网站（默认为当前文件夹）</span></span><br><span class="line">$ hexo new/n [layout] &lt;title&gt;  </span><br><span class="line"><span class="comment"># 新建文章，默认default_layout，标题含space。用“”</span></span><br><span class="line"><span class="comment"># 参数：-p -r -s</span></span><br><span class="line">$ hexo generate/g</span><br><span class="line"><span class="comment"># 生成静态文件</span></span><br><span class="line"><span class="comment"># 参数：-d -w -b -f -c</span></span><br><span class="line">$ hexo publish [layout] &lt;filename&gt;</span><br><span class="line"><span class="comment"># 发表草稿</span></span><br><span class="line">$ hexo server/s</span><br><span class="line"><span class="comment"># 启动服务器。默认情况下，访问网址为 http://localhost:4000/</span></span><br><span class="line"><span class="comment"># 参数：-p -s -l</span></span><br><span class="line">$ hexo deploy/d</span><br><span class="line"><span class="comment"># 部署网站</span></span><br><span class="line"><span class="comment"># 参数：-g 部署之前预先生成静态文件</span></span><br><span class="line">$ hexo render &lt;file1&gt; [file2]...</span><br><span class="line"><span class="comment"># 渲染文件</span></span><br><span class="line"><span class="comment"># 参数：-o 设置输出路径</span></span><br><span class="line">$ hexo migrate &lt;<span class="built_in">type</span>&gt;      <span class="comment"># 从其他blog系统迁移内容</span></span><br><span class="line">$ hexo list &lt;<span class="built_in">type</span>&gt;         <span class="comment"># 列出网站资料</span></span><br><span class="line">$ hexo version</span><br><span class="line">$ hexo clean</span><br><span class="line"><span class="comment"># 清除缓存文件 (db.json) 和已生成的静态文件 (public)。更换主题尤其需要执行</span></span><br><span class="line">$ hexo --safe</span><br><span class="line"><span class="comment"># 在安全模式下，不会载入插件和脚本。当在安装新插件遭遇问题时，可以尝试以安全模式重新执行。</span></span><br><span class="line">$ hexo --debug</span><br><span class="line"><span class="comment"># 在终端中显示调试信息并记录到 debug.log。当碰到问题时，可以尝试用调试模式重新执行一次，并提交调试信息到github</span></span><br><span class="line">$ hexo --silent          <span class="comment"># 隐藏终端信息</span></span><br><span class="line">$ hexo --draft</span><br><span class="line">$ hexo --cwd /path/to/cwd</span><br></pre></td></tr></table></figure>
-<p>删除文章：<br>首先到source / _post 文件夹中，找到文件，本地执行删除。然后依次执行hexo g -d</p>
-<p>==<strong>草稿文档，暂时不发布出去</strong>==</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new draft &lt;filename&gt;</span><br><span class="line">$ hexo server --draft       <span class="comment"># 预览</span></span><br><span class="line">$ hexo publish &lt;filename&gt;   <span class="comment"># 发布文件（_draft文件夹——&gt;_post文件夹）</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># default_layout: draft</span></span><br></pre></td></tr></table></figure>
-<p>page共三种：post、draft、normal<br>对应path为：source/_posts、source/__drafts、source</p>
-<h1 id="hexo部署至github"><a href="#hexo部署至github" class="headerlink" title="hexo部署至github"></a>hexo部署至github</h1><ol>
-<li><p>创建repository   名称：username.github.io<br>github page 可以非常方便的部署静态网页. 但是因为没有数据库, 无法存储数据, 也就没办法实现较为复杂的业务逻辑.  </p>
-<ul>
-<li>零成本: github pages 集成在 github 中, 直接和代码管理绑定在一起, 随着代码更新自动重新部署</li>
-<li>免费: 免费提供 username.github.io 的域名, 免费的静态网站服务器.</li>
-<li>无数量限制: github pages 没有使用的数量限制, 每一个 github repository 都可以部署为一个静态网站.</li>
-</ul>
-</li>
-<li><p>编辑hexo/config.yml文件：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: https://github.com/username/username.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>为github设置ssh keys</p>
-<ul>
-<li>检查 ~/.ssh (linux)或 c盘用户ID文件夹下.ssh (win)是否已有id_rsa.pub文件</li>
-<li>不存在的话生成 ： ssh-keygen -t rsa -C “xxxx@xxx.com”</li>
-<li>将id_rsa.pub文件内容复制至github的setting(可以仅设置该repository，也可将key在全局进行设置)，添加key</li>
-<li>测试是否添加成功：<br>ssh -T git@github.com</li>
-</ul>
-</li>
-<li><p>hexo d -g<br>若出现：ERROR Deployer not found: git<br>执行： npm install —save hexo-deployer-git</p>
-</li>
-</ol>
-<blockquote>
-<p><strong>参考博客</strong>：<br><a href="https://sunfove.xyz/archives/ec7d7221.html" target="_blank" rel="noopener">Hexo搭建个人博客</a></p>
-</blockquote>
-
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2019/11/28/hexo1-create-blog/#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -376,7 +395,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">1</span>
+          <span class="site-state-item-count">2</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -394,6 +413,14 @@
       </div>
   </nav>
 </div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/lx-eotk" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;lx-eotk" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/mailto:lx16@lzu.edu.cn" title="E-Mail → mailto:lx16@lzu.edu.cn" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+      </span>
+  </div>
 
 
 
@@ -420,11 +447,6 @@
   </span>
   <span class="author" itemprop="copyrightHolder">lx_eotk</span>
 </div>
-  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> v4.0.0
-  </div>
-  <span class="post-meta-divider">|</span>
-  <div class="theme-info">Theme – <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.5.0
-  </div>
 
         
 <div class="busuanzi-count">
