@@ -6,14 +6,15 @@
 <meta name="theme-color" content="#222">
 <meta name="generator" content="Hexo 4.0.0">
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/1.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/2.ico">
   <link rel="mask-icon" href="/images/logo.svg" color="#222">
 
 <link rel="stylesheet" href="/css/main.css">
 
 
 <link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css">
 
 
 <script id="hexo-configurations">
@@ -28,9 +29,9 @@
     copycode: {"enable":true,"show_result":true,"style":null},
     back2top: {"enable":true,"sidebar":false,"scrollpercent":true},
     bookmark: {"enable":false,"color":"#222","save":"auto"},
-    fancybox: false,
+    fancybox: true,
     mediumzoom: false,
-    lazyload: false,
+    lazyload: true,
     pangu: false,
     algolia: {
       appID: '',
@@ -49,7 +50,7 @@
   <meta name="description" content="HexoHexo——快速、简洁且高效的博客框架。 Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。  hexo官网： http:&#x2F;&#x2F;hexo.io文档： https:&#x2F;&#x2F;hexo.io&#x2F;zh-cn&#x2F;docs&#x2F;github: https:&#x2F;&#x2F;github.com&#x2F;hexojs&#x2F;hexo">
 <meta name="keywords" content="hexo,blog">
 <meta property="og:type" content="article">
-<meta property="og:title" content="hexo1-create-blog">
+<meta property="og:title" content="hexo1-搭建blog">
 <meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;28&#x2F;hexo1-create-blog&#x2F;index.html">
 <meta property="og:site_name" content="没想好">
 <meta property="og:description" content="HexoHexo——快速、简洁且高效的博客框架。 Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。  hexo官网： http:&#x2F;&#x2F;hexo.io文档： https:&#x2F;&#x2F;hexo.io&#x2F;zh-cn&#x2F;docs&#x2F;github: https:&#x2F;&#x2F;github.com&#x2F;hexojs&#x2F;hexo">
@@ -71,7 +72,7 @@
   };
 </script>
 
-  <title>hexo1-create-blog | 没想好</title>
+  <title>hexo1-搭建blog | 没想好</title>
   
 
 
@@ -219,7 +220,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          hexo1-create-blog
+          hexo1-搭建blog
         </h1>
 
         <div class="post-meta">
@@ -250,7 +251,21 @@
               </span>
               <span class="post-meta-item-text">Views: </span>
               <span id="busuanzi_value_page_pv"></span>
-            </span><br>
+            </span>
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="fa fa-comment-o"></i>
+      </span>
+      <span class="post-meta-item-text">Valine: </span>
+    
+    <a title="valine" href="/2019/11/28/hexo1-create-blog/#comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2019/11/28/hexo1-create-blog/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  <br>
             <span class="post-meta-item" title="Symbols count in article">
               <span class="post-meta-item-icon">
                 <i class="fa fa-file-word-o"></i>
@@ -350,8 +365,8 @@
     <div class="post-nav">
       <div class="post-nav-item"></div>
       <div class="post-nav-item">
-    <a href="/2019/12/01/test/" rel="next" title="test">
-      test <i class="fa fa-chevron-right"></i>
+    <a href="/2019/12/01/hexo2-next-opt/" rel="next" title="hexo2-主题及优化配置">
+      hexo2-主题及优化配置 <i class="fa fa-chevron-right"></i>
     </a></div>
     </div>
       </footer>
@@ -366,6 +381,7 @@
 
           </div>
           
+    <div class="comments" id="comments"></div>
 
         </div>
           
@@ -451,7 +467,7 @@
 
 <div class="copyright">
   
-  &copy; 
+  &copy; 2019-11-25T00:00:00.000Z – 
   <span itemprop="copyrightYear">2019</span>
   <span class="with-love">
     <i class="fa fa-user"></i>
@@ -495,6 +511,9 @@
 
   
   <script src="/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/lozad@1/dist/lozad.min.js"></script>
   <script src="/lib/velocity/velocity.min.js"></script>
   <script src="/lib/velocity/velocity.ui.min.js"></script>
 <script src="/js/utils.js"></script><script src="/js/motion.js"></script>
@@ -527,6 +546,33 @@
   
 
   
+
+
+<script>
+NexT.utils.getScript('//unpkg.com/valine/dist/Valine.min.js', () => {
+  var GUEST = ['nick', 'mail', 'link'];
+  var guest = 'nick,mail,link';
+  guest = guest.split(',').filter(item => {
+    return GUEST.includes(item);
+  });
+  new Valine({
+    el: '#comments',
+    verify: true,
+    notify: true,
+    appId: '5QMJ9xvNEOwz2Nuhy0UpOCL4-gzGzoHsz',
+    appKey: 'vYotO2YGTE9WFXwqP52L5MWO',
+    placeholder: "Just go go",
+    avatar: 'mm',
+    meta: guest,
+    pageSize: '10' || 10,
+    visitor: false,
+    lang: '' || 'zh-cn',
+    path: location.pathname,
+    recordIP: false,
+    serverURLs: ''
+  });
+}, window.Valine);
+</script>
 
 </body>
 </html>
