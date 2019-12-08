@@ -1,6 +1,748 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>vscode1-configuration</title>
+    <url>/2019/12/08/vscode1-configuration/</url>
+    <content><![CDATA[<h1 id="keyboard-shortcuts"><a href="#keyboard-shortcuts" class="headerlink" title="keyboard shortcuts"></a>keyboard shortcuts</h1><p>bold为常用快捷键</p>
+<blockquote>
+<p>参考官方文档  Keyboard shortcuts for Windows</p>
+</blockquote>
+<h2 id="创建多层子文件夹"><a href="#创建多层子文件夹" class="headerlink" title="创建多层子文件夹"></a>创建多层子文件夹</h2><p>在新建文件夹时直接输入：<code>aa/bb/cc</code></p>
+<h2 id="General"><a href="#General" class="headerlink" title="General"></a>General</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Press</th>
+<th style="text-align:left">Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Ctrl + Shift + P</strong>，F1</td>
+<td style="text-align:left"><strong>Show Command Palette</strong></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ctrl + P</strong></td>
+<td style="text-align:left">Quick Open, go to file…</td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl + Shift + N</td>
+<td style="text-align:left">New window/instance</td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl + Shift + W</td>
+<td style="text-align:left">Close window/instance</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ctrl+,</strong></td>
+<td style="text-align:left"><strong>User Settings</strong></td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl+K Ctrl+S</td>
+<td style="text-align:left">Keyboard Shortcuts</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="Basic-editing"><a href="#Basic-editing" class="headerlink" title="Basic editing"></a>Basic editing</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Press</th>
+<th style="text-align:left">Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Ctrl+X</strong></td>
+<td style="text-align:left"><strong>Cut line (empty selection)</strong></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ctrl+C</strong></td>
+<td style="text-align:left"><strong>Copy line (empty selection)</strong></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Alt+ ↑ / ↓</strong></td>
+<td style="text-align:left"><strong>Move line up/down</strong></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Shift+Alt + ↓ / ↑</strong></td>
+<td style="text-align:left"><strong>Copy line up/down</strong></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ctrl+Shift+K</strong></td>
+<td style="text-align:left"><strong>Delete line</strong></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ctrl + Backspace</strong></td>
+<td style="text-align:left"><strong>Delete  word before consor</strong></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ctrl + delete</strong></td>
+<td style="text-align:left"><strong>Delete  word after consor</strong></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ctrl+Enter</strong></td>
+<td style="text-align:left"><strong>Insert line below</strong></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ctrl+Shift+Enter</strong></td>
+<td style="text-align:left"><strong>Insert line above</strong></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ctrl+Shift+\</strong></td>
+<td style="text-align:left"><strong>Jump to matching bracket</strong></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ctrl+] / [</strong></td>
+<td style="text-align:left"><strong>Indent/outdent line</strong></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Home</strong></td>
+<td style="text-align:left"><strong>Go to beginning of line</strong></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>End</strong></td>
+<td style="text-align:left"><strong>Go to end of line</strong></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Crtl+←/→</strong></td>
+<td style="text-align:left"><strong>Move word</strong></td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl+Home</td>
+<td style="text-align:left">Go to beginning of file</td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl+End</td>
+<td style="text-align:left">Go to end of file</td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl+↑ / ↓</td>
+<td style="text-align:left">Scroll line up/down</td>
+</tr>
+<tr>
+<td style="text-align:left">Alt+PgUp / PgDown</td>
+<td style="text-align:left">Scroll page up/down</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ctrl+Shift+[</strong></td>
+<td style="text-align:left"><strong>Fold (collapse) region</strong></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ctrl+Shift+]</strong></td>
+<td style="text-align:left"><strong>Unfold (uncollapse) region</strong></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ctrl+K Ctrl+[</strong></td>
+<td style="text-align:left"><strong>Fold (collapse) all subregions</strong></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ctrl+K Ctrl+]</strong></td>
+<td style="text-align:left"><strong>Unfold (uncollapse) all subregions</strong></td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl+K Ctrl+0</td>
+<td style="text-align:left">Fold (collapse) all regions</td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl+K Ctrl+J</td>
+<td style="text-align:left">Unfold (uncollapse) all regions</td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl+K Ctrl+C</td>
+<td style="text-align:left">Add line comment</td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl+K Ctrl+U</td>
+<td style="text-align:left">Remove line comment</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ctrl+/</strong></td>
+<td style="text-align:left"><strong>Toggle line comment</strong></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Shift+Alt+A</strong></td>
+<td style="text-align:left"><strong>Toggle block comment</strong></td>
+</tr>
+<tr>
+<td style="text-align:left">Alt+Z</td>
+<td style="text-align:left">Toggle word wrap</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="Navigation"><a href="#Navigation" class="headerlink" title="Navigation"></a>Navigation</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Press</th>
+<th style="text-align:left">Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Ctrl + T</td>
+<td style="text-align:left">Show all Symbols</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ctrl + G</strong></td>
+<td style="text-align:left"><strong>Go to Line…</strong></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ctrl + P</strong></td>
+<td style="text-align:left"><strong>Go to File…</strong></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ctrl + Shift + O</strong></td>
+<td style="text-align:left"><strong>Go to Symbol…</strong></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ctrl + Shift + M</strong></td>
+<td style="text-align:left"><strong>Show Problems panel</strong></td>
+</tr>
+<tr>
+<td style="text-align:left">F8</td>
+<td style="text-align:left">Go to next error or warning</td>
+</tr>
+<tr>
+<td style="text-align:left">Shift + F8</td>
+<td style="text-align:left">Go to previous error or warning</td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl + Shift + Tab</td>
+<td style="text-align:left">Navigate editor group history</td>
+</tr>
+<tr>
+<td style="text-align:left">Alt + ←/→</td>
+<td style="text-align:left">Go back / forward</td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl + M</td>
+<td style="text-align:left">Toggle Tab moves focus</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="Search-and-replace"><a href="#Search-and-replace" class="headerlink" title="Search and replace"></a>Search and replace</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:left"><strong>Press</strong></th>
+<th style="text-align:left"><strong>Function</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Ctrl + F</strong></td>
+<td style="text-align:left"><strong>Find</strong></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ctrl + Shift +F</strong></td>
+<td style="text-align:left"><strong>Globally find</strong></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ctrl + H</strong></td>
+<td style="text-align:left"><strong>Replace</strong></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>F3 / Shift + F3</strong></td>
+<td style="text-align:left"><strong>Find next/previous</strong></td>
+</tr>
+<tr>
+<td style="text-align:left">Alt + Enter</td>
+<td style="text-align:left">Select all occurences of Find match</td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl + D</td>
+<td style="text-align:left">Add selection to next Find match</td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl + K Ctrl + D</td>
+<td style="text-align:left">Move last selection to next Find match</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Alt + C / R / W</strong></td>
+<td style="text-align:left"><strong>Toggle case-sensitive / regex / whole word</strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="Multi-cursor-and-selection"><a href="#Multi-cursor-and-selection" class="headerlink" title="Multi-cursor and selection"></a>Multi-cursor and selection</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Press</th>
+<th style="text-align:left">Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Alt +单击</strong></td>
+<td style="text-align:left"><strong>Insert cursor</strong></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ctrl + Alt +↑/↓</strong></td>
+<td style="text-align:left"><strong>Insert cursor above / below</strong></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ctrl + U</strong></td>
+<td style="text-align:left"><strong>Undo last cursor operation</strong></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Shift + Alt + I</strong></td>
+<td style="text-align:left"><strong>Insert cursor at end of each line selected</strong></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ctrl + I</strong></td>
+<td style="text-align:left"><strong>Select current line</strong></td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl + Shift + L</td>
+<td style="text-align:left">Select all occurrences of current selection</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ctrl + F2</strong></td>
+<td style="text-align:left"><strong>Select all occurrences of current word</strong></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Shift + Alt + →</strong></td>
+<td style="text-align:left"><strong>Expand selection</strong></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Shift + Alt + ←</strong></td>
+<td style="text-align:left"><strong>Shrink selection</strong></td>
+</tr>
+<tr>
+<td style="text-align:left">Shift + Alt + (drag mouse)</td>
+<td style="text-align:left">Column (box) selection</td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl + Shift + Alt +(arrow key)</td>
+<td style="text-align:left">Column (box) selection</td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl + Shift + Alt + PgUp / PgDown</td>
+<td style="text-align:left">Column (box) selection page up/down</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="Rich-languages-editing"><a href="#Rich-languages-editing" class="headerlink" title="Rich languages editing"></a>Rich languages editing</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Press</th>
+<th style="text-align:left">Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Ctrl + space</td>
+<td style="text-align:left">Trigger suggestion</td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl + Shift + Space</td>
+<td style="text-align:left">Trigger parameter hints</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Shift + Alt + F</strong></td>
+<td style="text-align:left"><strong>Format document</strong></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ctrl + K Ctrl + F</strong></td>
+<td style="text-align:left"><strong>Format selection</strong></td>
+</tr>
+<tr>
+<td style="text-align:left">==<strong>F12</strong>==</td>
+<td style="text-align:left"><strong>Go to Definition</strong></td>
+</tr>
+<tr>
+<td style="text-align:left">Alt + F12</td>
+<td style="text-align:left">Peek Definition</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ctrl + K F12</strong></td>
+<td style="text-align:left"><strong>Open Definition to the side</strong></td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl + .</td>
+<td style="text-align:left">Quick Fix</td>
+</tr>
+<tr>
+<td style="text-align:left">==<strong>Shift + F12</strong>==</td>
+<td style="text-align:left"><strong>Show References</strong></td>
+</tr>
+<tr>
+<td style="text-align:left">==<strong>F2</strong>==</td>
+<td style="text-align:left"><strong>Rename Symbol</strong></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ctrl + K Ctrl + X</strong></td>
+<td style="text-align:left"><strong>Trim trailing whitespace</strong></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ctrl + K M</strong></td>
+<td style="text-align:left"><strong>Change file language</strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="Editor-management"><a href="#Editor-management" class="headerlink" title="Editor management"></a>Editor management</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Press</th>
+<th style="text-align:left">Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Ctrl+F4, <strong>Ctrl+W</strong></td>
+<td style="text-align:left"><strong>Close editor</strong></td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl+K F</td>
+<td style="text-align:left">Close folder</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ctrl+\</strong></td>
+<td style="text-align:left"><strong>Split editor</strong></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ctrl+ 1 / 2 / 3</strong></td>
+<td style="text-align:left"><strong>Focus into 1st, 2nd or 3rd editor group</strong></td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl+K Ctrl+ ←/→</td>
+<td style="text-align:left">Focus into previous/next editor group</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ctrl+Shift+PgUp / PgDown</strong></td>
+<td style="text-align:left"><strong>Move editor left/right</strong></td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl+K ← / →</td>
+<td style="text-align:left">Move active editor group</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="File-management"><a href="#File-management" class="headerlink" title="File management"></a>File management</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Press</th>
+<th style="text-align:left">Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Ctrl+N</strong></td>
+<td style="text-align:left"><strong>New File</strong></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ctrl+O</strong></td>
+<td style="text-align:left"><strong>Open File…</strong></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ctrl+S</strong></td>
+<td style="text-align:left"><strong>Save</strong></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ctrl+Shift+S</strong></td>
+<td style="text-align:left"><strong>Save As…</strong></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ctrl+K S</strong></td>
+<td style="text-align:left"><strong>Save All</strong></td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl+F4</td>
+<td style="text-align:left">Close</td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl+K Ctrl+W</td>
+<td style="text-align:left">Close All</td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl+Shift+T</td>
+<td style="text-align:left">Reopen closed editor</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ctrl+K</strong></td>
+<td style="text-align:left"><strong>Enter Keep Open</strong></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ctrl+Tab</strong></td>
+<td style="text-align:left"><strong>Open next</strong></td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl+Shift+Tab</td>
+<td style="text-align:left">Open previous</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ctrl+K P</strong></td>
+<td style="text-align:left"><strong>Copy path of active file</strong></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ctrl+K R</strong></td>
+<td style="text-align:left"><strong>Reveal active file in Explorerss</strong></td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl+K O</td>
+<td style="text-align:left">Show active file in new window/instance</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="Display"><a href="#Display" class="headerlink" title="Display"></a>Display</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Press</th>
+<th style="text-align:left">Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>F11</strong></td>
+<td style="text-align:left"><strong>Toggle full screen</strong></td>
+</tr>
+<tr>
+<td style="text-align:left">Shift+Alt+1</td>
+<td style="text-align:left">Toggle editor layout</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ctrl+ = / -</strong></td>
+<td style="text-align:left"><strong>Zoom in/out</strong></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ctrl+B</strong></td>
+<td style="text-align:left"><strong>Toggle Sidebar visibility</strong></td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl+Shift+E</td>
+<td style="text-align:left">Show Explorer / Toggle focus</td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl+Shift+F</td>
+<td style="text-align:left">Show Search</td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl+Shift+G</td>
+<td style="text-align:left">Git Show Git</td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl+Shift+D</td>
+<td style="text-align:left">Show Debug</td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl+Shift+X</td>
+<td style="text-align:left">Show Extensions</td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl+Shift+H</td>
+<td style="text-align:left">Replace in files</td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl+Shift+J</td>
+<td style="text-align:left">Toggle Search details</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ctrl+Shift+C</strong></td>
+<td style="text-align:left">Open new command prompt/terminal</td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl+Shift+U</td>
+<td style="text-align:left">Show Output panel</td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl+Shift+V</td>
+<td style="text-align:left">Toggle Markdown preview</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ctrl+K V</strong></td>
+<td style="text-align:left">Open Markdown preview to the side</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="Debug"><a href="#Debug" class="headerlink" title="Debug"></a>Debug</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Press</th>
+<th style="text-align:left">Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">F9</td>
+<td style="text-align:left">Toggle breakpoint</td>
+</tr>
+<tr>
+<td style="text-align:left">F5</td>
+<td style="text-align:left">Start/Continue</td>
+</tr>
+<tr>
+<td style="text-align:left">Shift+F5</td>
+<td style="text-align:left">Stop</td>
+</tr>
+<tr>
+<td style="text-align:left">F11 / Shift+F11</td>
+<td style="text-align:left">Step into/out</td>
+</tr>
+<tr>
+<td style="text-align:left">F10</td>
+<td style="text-align:left">Step over</td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl+K Ctrl+I</td>
+<td style="text-align:left">Show hover</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="Integrated-terminal"><a href="#Integrated-terminal" class="headerlink" title="Integrated terminal"></a>Integrated terminal</h2><div class="table-container">
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Press</th>
+<th style="text-align:left">Function</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Ctrl+`</strong></td>
+<td style="text-align:left">Show integrated terminal</td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl+Shift+`</td>
+<td style="text-align:left">Create new terminal</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ctrl+Shift+C</strong></td>
+<td style="text-align:left"><strong>Copy selection</strong></td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ctrl+Shift+V</strong></td>
+<td style="text-align:left"><strong> Paste into active terminal</strong></td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl+↑ / ↓</td>
+<td style="text-align:left">Scroll up/down</td>
+</tr>
+<tr>
+<td style="text-align:left">Shift+PgUp / PgDown</td>
+<td style="text-align:left">Scroll page up/down</td>
+</tr>
+<tr>
+<td style="text-align:left">Ctrl+Home / End</td>
+<td style="text-align:left">Scroll to top/bottom</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h1 id="Emmet-in-VS-Code"><a href="#Emmet-in-VS-Code" class="headerlink" title="Emmet in VS Code"></a>Emmet in VS Code</h1><p><a href="https://blog.csdn.net/hypon2016/article/details/80831266" target="_blank" rel="noopener">VsCode中使用Emmet神器快速编写HTML代码</a></p>
+<p><strong>实在tql，生产力工具呀</strong></p>
+<h1 id="插件-体验更新ing"><a href="#插件-体验更新ing" class="headerlink" title="插件(体验更新ing)"></a>插件(体验更新ing)</h1><h2 id="python"><a href="#python" class="headerlink" title="python"></a>python</h2><p> 必备插件python，提供了代码分析，高亮，规范化等很多基本功能</p>
+<h2 id="Anaconda-Extension-Pack"><a href="#Anaconda-Extension-Pack" class="headerlink" title="Anaconda Extension Pack"></a>Anaconda Extension Pack</h2><p>针对使用anaconda，可以大大增强代码提示功能。原始的代码提示基本只包含了python标准库，该插件可对各种第三方库基本都能实现代码提示了，并且还会额外显示每个方法的帮助。 </p>
+<h2 id="c-c"><a href="#c-c" class="headerlink" title="c/c++"></a>c/c++</h2><p>同上python，提供语言开发环境</p>
+<h2 id="code-runner"><a href="#code-runner" class="headerlink" title="code runner"></a>code runner</h2><p>Run code snippet or code file for multiple languages: C, C++, Java, JavaScript, PHP, Python, Perl, Perl 6, Ruby, Go, Lua, Groovy, PowerShell, BAT/CMD, BASH/SH, F# Script, F# (.NET Core), C# Script, C# (.NET Core), VBScript, TypeScript……</p>
+<p><strong>useges</strong>:</p>
+<p>捷键方法常用</p>
+<ul>
+<li>To run code:<ul>
+<li>use shortcut <code>Ctrl+Alt+N</code></li>
+<li>or press <code>F1</code> and then select/type <code>Run Code</code>,</li>
+<li>or right click the Text Editor and then click <code>Run Code</code> in editor context menu</li>
+<li>or click <code>Run Code</code> button in editor title menu</li>
+</ul>
+</li>
+<li>To stop the running code:<ul>
+<li>use shortcut <code>Ctrl+Alt+M</code></li>
+<li>or press <code>F1</code> and then select/type <code>Stop Code Run</code></li>
+<li>or right click the Output Channel and then click <code>Stop Code Run</code> in context menu</li>
+</ul>
+</li>
+<li>To <strong>select language to run</strong>, use shortcut <code>Ctrl+Alt+J</code>, or press <code>F1</code> and then select/type <code>Run By Language</code>, then type or select the language to run: e.g <code>php, javascript, bat, shellscript..</code> </li>
+</ul>
+<p><strong>Configuration：</strong></p>
+<p>Ctrl+, then type code-runner<br>配置相应的编译/解释器：<br>Make sure the executor PATH of each language is set in the environment variable. You could also add entry into <code>code-runner.executorMap</code> to set the executor PATH</p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="attr">"code-runner.executorMap"</span>: &#123;</span><br><span class="line">        <span class="attr">"javascript"</span>: <span class="string">"node"</span>,</span><br><span class="line">        <span class="attr">"php"</span>: <span class="string">"C:\\php\\php.exe"</span>,</span><br><span class="line">        <span class="attr">"python"</span>: <span class="string">"python"</span>,</span><br><span class="line">        <span class="attr">"perl"</span>: <span class="string">"perl"</span>,</span><br><span class="line">        <span class="attr">"ruby"</span>: <span class="string">"C:\\Ruby23-x64\\bin\\ruby.exe"</span>,</span><br><span class="line">        <span class="attr">"go"</span>: <span class="string">"go run"</span>,</span><br><span class="line">        <span class="attr">"html"</span>: <span class="string">"\"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe\""</span>,</span><br><span class="line">        <span class="attr">"java"</span>: <span class="string">"cd $dir &amp;&amp; javac $fileName &amp;&amp; java $fileNameWithoutExt"</span>,</span><br><span class="line">        <span class="attr">"c"</span>: <span class="string">"cd $dir &amp;&amp; gcc $fileName -o $fileNameWithoutExt &amp;&amp; $dir$fileNameWithoutExt"</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="vscode-icons"><a href="#vscode-icons" class="headerlink" title="vscode-icons"></a>vscode-icons</h2><p> 文件图标主题</p>
+<h2 id="Bracket-Pair-Colorizer-2"><a href="#Bracket-Pair-Colorizer-2" class="headerlink" title="Bracket Pair Colorizer 2"></a>Bracket Pair Colorizer 2</h2><p> 以不同颜色显示成对的括号，并用连线标注括号范围<br> 另外，<code>Rainbow Brackets</code>插件，也可以突出显示成对的括号</p>
+<h2 id="sftp"><a href="#sftp" class="headerlink" title="sftp"></a>sftp</h2><p>采用的方法：</p>
+<ol>
+<li><p>应用project manager建立project</p>
+</li>
+<li><p>在project中进行sftp的相关配置<br><code>Ctrl+shift+P</code>命令面板中输入 <code>sftp:config</code>, 回车后会在project的根目录建立<code>.vscode\sftp.json</code>文件</p>
+<p>内容如下：填写相应的服务器配置</p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">    <span class="attr">"name"</span>: <span class="string">"algorithm"</span>,</span><br><span class="line">    <span class="attr">"host"</span>: <span class="string">"xxxxx"</span>,</span><br><span class="line">    <span class="attr">"protocol"</span>: <span class="string">"sftp"</span>,</span><br><span class="line">    <span class="attr">"port"</span>: <span class="number">22</span>,</span><br><span class="line">    <span class="attr">"username"</span>: <span class="string">"xxx"</span>,</span><br><span class="line">    <span class="attr">"remotePath"</span>: <span class="string">"/xx/yy/zz/"</span>,</span><br><span class="line">    <span class="attr">"password"</span>: <span class="string">"xxxxx"</span>,</span><br><span class="line">    <span class="attr">"uploadOnSave"</span>: <span class="literal">true</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+<li><p>相关命令：</p>
+<p>sftp的相关命令均基于命令面板进行，so 先ctrl+shift+P<br><img alt="1575799258619" data-src="/2019/12/08/vscode1-configuration/1575799258619.png"></p>
+<p>然后选择相关命令即可（上传文件时会自动基于project与配置的服务器目录进行文件夹创建）</p>
+</li>
+<li><p>为常用命令配置快捷键</p>
+<p><code>file-&gt;preference-&gt;keyboard shortcuts</code> 搜索sftp进行配置<br><img alt="1575799804502" data-src="/2019/12/08/vscode1-configuration/1575799804502.png"></p>
+</li>
+<li><p>其他高级配置<br>Profiles：暂未知<br>Multiple Context：暂未知<br>Connection Hopping： connect to a target server through a proxy with ssh protocol. （Single Hop、Multiple Hop）</p>
+</li>
+<li><p>Config in User Setting</p>
+<p>You can use <code>remote</code> to tell sftp to get the config from remote-fs.<br><strong>可应用与多个project均需和同一个服务器进行交互</strong></p>
+<p>In User Setting:</p>
+<figure class="highlight"><table><tr><td class="code"><pre><span class="line">"remotefs.remote": &#123;</span><br><span class="line">  "dev": &#123;</span><br><span class="line">    "scheme": "sftp",</span><br><span class="line">    "host": "host",</span><br><span class="line">    "username": "username",</span><br><span class="line">    "rootPath": "/path/to/somewhere"</span><br><span class="line">  &#125;,</span><br><span class="line">  "projectX": &#123;</span><br><span class="line">    "scheme": "sftp",</span><br><span class="line">    "host": "host",</span><br><span class="line">    "username": "username",</span><br><span class="line">    "privateKeyPath": "/Users/xx/.ssh/id_rsa",</span><br><span class="line">    "rootPath": "/home/foo/some/projectx"</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>In sftp.json:</p>
+<figure class="highlight json"><table><tr><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">"remote"</span>: <span class="string">"dev"</span>,</span><br><span class="line">  <span class="attr">"remotePath"</span>: <span class="string">"/home/xx/"</span>,</span><br><span class="line">  <span class="attr">"uploadOnSave"</span>: <span class="literal">true</span>,</span><br><span class="line">  <span class="attr">"ignore"</span>: [<span class="string">".vscode"</span>, <span class="string">".git"</span>, <span class="string">".DS_Store"</span>]</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</li>
+</ol>
+<blockquote>
+<p>参考自 <a href="https://github.com/liximomo/vscode-sftp" target="_blank" rel="noopener">SFTP</a></p>
+</blockquote>
+<h2 id="Project-Manager"><a href="#Project-Manager" class="headerlink" title="Project Manager"></a>Project Manager</h2><p>可以快速切换不同的project</p>
+<p>配置/操作如下：</p>
+<ol>
+<li><strong>command+ shift + p打开配置文件</strong><br>输入 Project Manager: Edit Projects </li>
+<li><strong>添加本地项目</strong></li>
+<li>切换本地项目<br>可以在side bar进行手动切换<br>or <strong>command+ shift + p</strong> ： project manager：List ……<br>or <strong>快捷键 shift+alt+p</strong></li>
+</ol>
+<h2 id="CSS-Color"><a href="#CSS-Color" class="headerlink" title="CSS Color"></a>CSS Color</h2><p>vscode-pigments ：css颜色高亮显示<br>Color Manager：css 颜色管理</p>
+<h2 id="TODO-Highlight"><a href="#TODO-Highlight" class="headerlink" title="TODO Highlight"></a>TODO Highlight</h2><p>写代码过程中，突然发现一个Bug，但是又不想停下来手中的活，以免打断思路，怎么办？按代码编写会规范，都是建议在代码中加个TODO注释 </p>
+<p>如：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">//<span class="doctag">TODO:</span>这里有个bug，但是空间太小了，我的算法写不下。</span></span><br><span class="line"><span class="comment">//或者</span></span><br><span class="line"><span class="comment">//<span class="doctag">FIXME:</span>垃圾代码，会崩溃的。</span></span><br></pre></td></tr></table></figure>
+<p>该插件作用：</p>
+<ol>
+<li><p>分析代码中的TODO标签，并加亮之后，可以集中显示</p>
+</li>
+<li><p>可以list所有的todo位置</p>
+</li>
+<li><p>使用：</p>
+<p>命令面板中输入： Todohighlist 选择相应的命令</p>
+</li>
+</ol>
+<h2 id="Settings-Sync"><a href="#Settings-Sync" class="headerlink" title="Settings Sync"></a>Settings Sync</h2><p> 多台设备之间，同步 VS Code 配置， 包括setting文件，插件设置等 。通过登录 GitHub 账号来使用这个同步工具</p>
+<p>此外：vscode-syncing  也可多台设备之间，同步 VS Code 配置</p>
+<ol>
+<li>下载插件</li>
+<li>log in github账号</li>
+<li><code>alt+shift+u</code> 强制上传：会自动在github账号新建一个gist的token，然后上传成功后会返回gist id（会自动填充之配置文件，可以自己确定一下），保存</li>
+<li>在其他设备上直接配置gist id<br>然后 <code>alt+shift+d</code> 即可下载配置</li>
+</ol>
+<h2 id="vscode-fileheader"><a href="#vscode-fileheader" class="headerlink" title="vscode-fileheader"></a>vscode-fileheader</h2><p><strong>hot-keys：</strong></p>
+<p><code>ctrl+alt+i</code> ：insert comments in the head<br>ctrl+s After save the file, and automatically update the time and author. </p>
+<p><strong>Configuration：</strong><br>修改相关配置<br>可拷贝setting in json，然后在setting.json中进行修改</p>
+]]></content>
+      <categories>
+        <category>software</category>
+        <category>vs-code</category>
+      </categories>
+      <tags>
+        <tag>vs-code</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>hexo2-主题及优化配置</title>
     <url>/2019/12/01/hexo2-next-opt/</url>
     <content><![CDATA[<p><img alt="NexT" data-src="/2019/12/01/hexo2-next-opt/1575203555948.png"></p>
